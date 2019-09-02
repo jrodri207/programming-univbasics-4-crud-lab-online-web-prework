@@ -43,6 +43,6 @@ end
 
 def update_element_from_index(array, index_number, element)
   update_element_from_index = ["chicken", "ribs", "pork", "wings"]
-  update_element_from_index.index[2]
-  update_element_from_index[2] = "wow"
+  update_element_from_index.index[-1]
+  update_element_from_index[-1] = "wow"
 end
